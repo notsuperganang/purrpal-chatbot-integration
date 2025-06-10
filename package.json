@@ -1,0 +1,35 @@
+{
+  "name": "chatbot-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/chatbot.js",
+    "test": "npm test",
+    "dev": "node --watch src/chatbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notsuperganang/purrpal-chatbot-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/notsuperganang/purrpal-chatbot-integration/issues"
+  },
+  "homepage": "https://github.com/notsuperganang/purrpal-chatbot-integration#readme",
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.10"
+  }
+}

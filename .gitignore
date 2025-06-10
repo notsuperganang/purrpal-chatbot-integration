@@ -1,1 +1,7 @@
-project-plan.pdf
+node_modules/
+.env
+service-account-key.json
+*.log
+.DS_Store
+dist/
+coverage/
